@@ -9,7 +9,9 @@ import Songs from '@/views/music/songs'
 import SongsRestore from '@/views/music/songsRestore'
 import ReportComments from '@/views/music/reportComments'
 import ReportCommentsHistory from '@/views/music/reportCommentsHistory'
+import AccountUpdate from '@/views/music/accountUpdate'
 import Login from '@/views/Login'
+import Charts from '@/views/Charts'
 Vue.use(Router)
 
 export default new Router({
@@ -58,6 +60,16 @@ export default new Router({
           path: '/ReportCommentsHistory',
           name: 'ReportCommentsHistory',
           component: ReportCommentsHistory
+        },
+        {
+          path: '/Charts',
+          name: 'Charts',
+          component: Charts
+        },
+        {
+          path: '/AccountUpdate',
+          name: 'AccountUpdate',
+          component: AccountUpdate
         }
       ]
     },

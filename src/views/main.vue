@@ -82,7 +82,6 @@ export default {
     }
   },
   mounted () {
-    LoginApi.checkLogin().then(data => {})
   },
   methods: {
     changeUpdatePassword () {

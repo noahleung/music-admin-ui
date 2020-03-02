@@ -100,8 +100,13 @@ export default {
       },
       {
         iconBase64: 'el-icon-s-data',
+        menuName: '账号管理',
+        routerName: 'AccountUpdate'
+      },
+      {
+        iconBase64: 'el-icon-s-data',
         menuName: '系统报表',
-        routerName: 'charts'
+        routerName: 'Charts'
       }]
     }
   },
